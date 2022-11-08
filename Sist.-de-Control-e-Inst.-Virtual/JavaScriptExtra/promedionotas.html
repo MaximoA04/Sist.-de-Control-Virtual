@@ -1,0 +1,40 @@
+<html>
+<head>
+  <style>
+    a {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black ;
+        text-align:center;
+        display: block;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+var nota1 = Number(prompt("Ingrese la primera nota"));
+var nota2 = Number(prompt("Ingrese la segunda nota"));
+var nota3 = Number(prompt("Ingrese la ultima nota"));
+var promedio= nota1 + nota2 + nota3;
+var promedio1= promedio / 3;
+
+document.write ("<br/> <b> VALORES INGRESADOS </b>");
+document.write ("<br/> ");
+document.write ("<br/> <b> Primera nota= </b>" +nota1);
+document.write ("<br/> ");
+document.write ("<br/> <b> Segunda nota= </b>" +nota2);
+document.write ("<br/> ");
+document.write ("<br/><b>  Tercera nota=  </b>" +nota3);
+document.write ("<br/> ");
+document.write ("<br/> ");
+if( promedio1    >= 7 ){
+ document.write( "<b> Felicidades mostro aprobaste con  </b>" + promedio1); 
+}else{
+ document.write (" <b> NOOOO sos un burro </b> " + promedio1); 
+}
+</script>
+  <p> Ingresar otras notas para sacar promedio...</p> 
+  <p><a href="../index.html">Volver</a></p>
+</body>
+</html>
