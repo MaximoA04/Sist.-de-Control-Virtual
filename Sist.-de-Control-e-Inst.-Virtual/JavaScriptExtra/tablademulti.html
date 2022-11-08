@@ -1,0 +1,33 @@
+<html>
+<head>
+   <style>
+      a {
+          font-size: 30px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          color: black ;
+          text-align:center;
+          display: block;
+          }
+      </style>
+</head>
+<body>
+<script type="text/javascript">
+var a = Number(prompt("Ingrese numero para ver la tabla de multiplicacion"));
+var count= -1
+document.write("Empenzando ciclo <br/>");
+while (count < 10){
+ count++;
+ var multi= a * count   
+  document.write(+a);
+  document.write ("x");
+  document.write (+count);
+  document.write ("=    ");
+  document.write (+multi);
+  document.write ("<br/>")
+}
+document.write( "Ciclo terminado!");
+</script>
+   <p><a href="../index.html">Volver</a></p>
+</body>
+</html>
